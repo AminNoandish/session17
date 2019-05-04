@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/Yekan.eot),
+    url(../fonts/Yekan.woff) format("woff"),
+    url(../fonts/Yekan.ttf) format("truetype");
+}
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+body{
+    font-family: yekan;
+    direction: rtl;
+
+                             /* gradiant 'w3' */
+    /* background-image: linear-gradient(to right, rgba(184, 164, 164, 0), rgb(34, 90, 116));        right to left */
+    background: linear-gradient(#a5a5a5, #65b1d6);
+    background-repeat: repeat-x;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+    /* header */
+.menu ul{
+    list-style: none;
+}
+.menu li{
+    float: left;
+    padding: 12px;
+}
+.menu a{
+    color: rgb(91, 0, 175);
+    /* font-family: yekan; */
+    font-size: 30px;
+}
+.header{
+    padding-top: 20px;
+}
+.branding h1{
+    font-family: yekan;
+    font-size: 45px;
+}
+.branding h2{
+    color:rgb(126, 126, 126);
+}
+
+      /* rezome */
+.rezome .box .box-1 .box-2{
+    box-sizing: border-box;
+}
+.rezome .box{
+    width: 75%;
+    float: right;
+    border: 2px solid rgb(150, 150, 150);
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+}
+.box-1 {
+    display: flex;
+}
+.box h2{
+    padding-bottom: 15px;
+}
+/* .box a{
+    padding-top: 10px;
+} */
+.box-2{
+    border: 2px solid rgb(160, 160, 160);
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background-color: #f1f1f1;
+
+}
+.box-2 h2{
+    padding-bottom: 10px;
+}
+.box-2 .border{
+    border-bottom: 3px dashed rgb(150, 150, 150);
+}
