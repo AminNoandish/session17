@@ -16,7 +16,7 @@ body{
                              /* gradiant 'w3' */
     /* background-image: linear-gradient(to right, rgba(184, 164, 164, 0), rgb(34, 90, 116));        right to left */
     background: linear-gradient(#a5a5a5, #65b1d6);
-    background-repeat: repeat-x;
+    
 }
 .container{
     width: 80%;
